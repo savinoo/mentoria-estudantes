@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org" th:replace="~{layout/main :: layout(~{::main})}">
+<head>
+    <title>Página Inicial</title>
+</head>
+<body>
+    <main>
+        <div class="px-4 py-5 my-5 text-center">
+            <h1 class="display-5 fw-bold">Bem-vindo à Plataforma de Mentoria</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Conectando estudantes a mentores experientes para impulsionar sua carreira e desenvolvimento pessoal.</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <a href="/register" class="btn btn-primary btn-lg px-4 gap-3">Comece Agora</a>
+                    <a href="/mentors" class="btn btn-outline-secondary btn-lg px-4">Ver Mentores</a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

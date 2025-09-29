@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MentoriaEstudantesApplication<mentoria-estudantes>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.java.br.edu.iff.ccc.mentoria_estudantes.MentoriaEstudantesApplication",
+            "projectName": "mentoria-estudantes",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
